@@ -15,7 +15,7 @@ const PhotoRoute = require('./Routes/Photo')
 
 
 mongoose.set('useCreateIndex', true)
-mongoose.connect('mongodb://localhost:27017/TEST', {useNewUrlParser: true, useUnifiedTopology: true },()=>
+mongoose.connect(process.env.DB_CONNECT, {useNewUrlParser: true, useUnifiedTopology: true },()=>
 console.log('db Connected'));
 
 
