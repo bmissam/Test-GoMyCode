@@ -19,7 +19,7 @@
         "dotenv": "^8.2.0",
         "is-empty": "^1.2.0",
         "jsonwebtoken": "^8.5.1",
-        "knex": "^0.19.5",
+        "knex": "^2.4.0",
         "mongodb": "^3.3.2",
         "mongoose": "^5.7.5",
         "morgan": "^1.9.1",
